@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #1258db, #2a5298);
+    color: #ffffff;
+}
+
+/* Títulos */
+h1, h3 {
+    text-align: center;
+    color: #ffffff;
+    letter-spacing: 1px;
+}
+
+/* Parágrafos */
+p {
+    text-align: center;
+    color: #e0e6ff;
+    font-size: 18px;
+}
+
+/* Lista */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    text-align: center;
+    padding: 5px;
+    font-size: 17px;
+    transition: 0.3s;
+}
+
+li:hover {
+    transform: scale(1.05);
+    color: #ffd166;
+}
+
+/* Caixa estilizada */
+.caixa {
+    width: 60%;
+    padding: 25px;
+    margin: 30px auto;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+/* Classe baba */
+.baba {
+    text-align: center;
+    font-weight: bold;
+    color: #ffd166;
+}
+
+/* Imagem */
+img {
+    width: 200px;
+    display: block;
+    margin: 25px auto;
+    border-radius: 15px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.4);
+    transition: 0.3s;
+}
+
+img:hover {
+    transform: scale(1.05);
+}
+
+/* Links */
+a {
+    color: #ffd166;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+a:hover {
+    color: #ffffff;
+    text-shadow: 0 0 8px #ffd166;
+}
